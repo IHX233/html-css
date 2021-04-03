@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<style type="text/css">
+  table{
+       margin:100px auto;
+	   
+	   border:1px solid #000;
+       
+	   colspan
+
+  }
+  tr{
+       text-align:center;
+  }
+  th{
+       border:1px solid #000;
+	   height:30px;
+	   width:100px;
+  }
+</style>
+ </head>
+ <body>
+      <table> 
+	    <tbody>
+         <tr><th colspan="6">个人简历</th></tr>
+	     <tr>
+		     <th>姓名:</th>
+			 <th><input type="text"></input></th>
+			 <th>性别:</th>
+			 <th><input type="text"></input></th>
+			 <th>民族:</th>
+			 <th><input type="text"></input></th>
+		 </tr>
+	     <tr>
+		     <th>生日:</th>
+			 <th><input type="text"></input></th>
+			 <th>电话:</th>
+			 <th><input type="text"></input></th>
+			 <th>身高:</th>
+			 <th><input type="text"></input></th>
+		 </tr>
+		 <tr>
+		     <th  colspan="2">生日:</th>
+			 <th><input type="date"></input></th>
+			 <th  colspan="2">电话:</th>
+			 <th><input type="text"></input></th>
+		 </tr>
+	    </tbody>
+	  </table>
+ </body>
+</html>
