@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style  type="text/css">
+  *{
+      padding:0;
+	  margin:0;
+  }
+  body{
+      background-color:#000;
+  }
+  .wrap{
+      overflow:hidden;
+      position:relative;
+      height:500px;
+	  width:500px;
+	  margin:500px auto;
+	  background-color:#fff;
+	  border:1px solid transparent;
+	  border-radius:8px;
+  }
+  .box{
+      overflow:hidden;
+      height:400px;
+	  width:400px;
+	  border:1px solid transparent;
+	  margin:50px  auto;
+	  border-radius:5px;
+  }
+  .t{
+      position:absolute;
+      height:5px;
+	  width:500px;
+	  background-color:#9900ff;
+  }
+  .r{ 
+      position:absolute;
+      height:500px;
+	  width:5px;
+	  background-color:#9900ff;
+
+  }
+  .tt{
+      top:0;
+	  left:-500px;
+	  animation-name:run;
+	  animation-duration:4s;
+	  animation-fill-mode:forwards;
+
+  }
+  .tb{
+      top:495px;
+	  left:500px;
+	  animation-name:run1;
+	  animation-duration:4s;
+	  animation-fill-mode:forwards;
+  }
+  .rl{
+      top:500px;
+	  left:0;
+	  animation-name:run2;
+	  animation-duration:5s;
+	  animation-fill-mode:forwards;
+  }
+  .rr{
+      top:-500px;
+	  left:495px;
+	  animation-name:run3;
+	  animation-duration:5s;
+	  animation-fill-mode:forwards;
+  }
+  .box div{
+     
+      float:left;
+	  height:80px;
+	  width:80px;
+	  background:url("2.jpg") no-repeat;
+	  background-size:400px 400px;
+	  animation-name:run4;
+	  animation-duration:1s;
+	  animation-fill-mode:forwards;
+	  opacity:0;
+	  
+	 
+
+  }
+  @keyframes run{
+        
+      to{
+	       top:0;
+	       left:0;
+	  }
+  }
+  @keyframes run1{
+       
+      to{
+	       top:495px;
+	       left:0;
+	  }
+  }
+  @keyframes run2{
+        
+      to{
+	       top:0;
+	       left:0;
+	  }
+  }
+  @keyframes run3{
+       
+      to{
+	       top:0;
+	       left:495px;
+	  }
+  }
+  @keyframes run4{
+      to{
+	     opacity:1;  
+	  }
+  }
+  
+  .box div:nth-child(1){
+     background-position:0 0;
+	 
+  }
+  .box div:nth-child(2){
+     background-position:-80px 0;
+	 animation-delay:0.5s;
+  }
+  .box div:nth-child(3){
+     background-position:-160px 0;
+	 animation-delay:1s;
+  }
+  .box div:nth-child(4){
+     background-position:-240px 0;
+	 animation-delay:1.5s;
+  }
+  .box div:nth-child(5){
+     background-position:-320px 0;
+	 animation-delay:2s;
+  }
+  .box div:nth-child(6){
+     background-position:0 -80px;
+	 animation-delay:0.5s;
+  }
+  .box div:nth-child(7){
+     background-position:-80px -80px;
+	 animation-delay:1s;
+  }
+  .box div:nth-child(8){
+     background-position:-160px -80px;
+	 animation-delay:1.5s;
+  }
+  .box div:nth-child(9){
+     background-position:-240px -80px;
+	 animation-delay:2s;
+  }
+  .box div:nth-child(10){
+     background-position:-320px -80px;
+	 animation-delay:2.5s;
+  }
+  .box div:nth-child(11){
+     background-position:0 -160px;
+	 animation-delay:1s;
+  }
+  .box div:nth-child(12){
+     background-position:-80px -160px;
+	 animation-delay:1.5s;
+  }
+  .box div:nth-child(13){
+     background-position:-160px -160px;
+	 animation-delay:2s;
+  }
+  .box div:nth-child(14){
+     background-position:-240px -160px;
+	 animation-delay:2.5s;
+  }
+  .box div:nth-child(15){
+     background-position:-320px -160px;
+	 animation-delay:3s;
+  }
+  .box div:nth-child(16){
+     background-position:0 -240px;
+	 animation-delay:1.5s;
+  }
+  .box div:nth-child(17){
+     background-position:-80px -240px;
+	 animation-delay:2s;
+  }
+  .box div:nth-child(18){
+     background-position:-160px -240px;
+	 animation-delay:2.5s;
+  }
+  .box div:nth-child(19){
+     background-position:-240px -240px;
+	 animation-delay:3s;
+  }
+  .box div:nth-child(20){
+     background-position:-320px -240px;
+	 animation-delay:3.5s;
+  }
+  .box div:nth-child(21){
+     background-position:0 -320px;
+	 animation-delay:2s;
+  }
+  .box div:nth-child(22){
+     background-position:-80px -320px;
+	 animation-delay:2.5s;
+  }
+  .box div:nth-child(23){
+     background-position:-160px -320px;
+	 animation-delay:3s;
+  }
+  .box div:nth-child(24){
+     background-position:-240px -320px;
+	 animation-delay:3.5s;
+  }
+  .box div:nth-child(25){
+     background-position:-320px -320px;
+	 animation-delay:4s;
+  }
+  </style>
+ </head>
+ <body>
+  <div class="wrap">
+     <div class="box">
+	 <div class="1"></div>
+	 <div class="2"></div>
+	 <div class="3"></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 <div></div>
+	 
+	 </div>
+	 <div class="t tt"></div>
+	 <div class="t tb"></div>
+	 <div class="r rl"></div>
+	 <div class="r rr"></div>
+  </div>
+ </body>
+</html>
