@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="font/iconfont.css"/>
+  <style>
+      *{
+	       padding:0;
+		   margin:0; 
+	  }
+	  body{
+	       font: 12px/1.5 tahoma,ariai,"\5b8b\4f53";
+	   }
+      .head{
+	       height:27px;
+		   background-color:#f2f2f2;
+	  }
+	  .content{
+	       position:relative;
+	       width:990px;
+		   height:27px;
+		   margin:auto;
+		   line-height:27px;
+	  }
+	  .right{
+	    position:absolute;
+		top:0;
+		left:250px;
+	  }
+	  em{
+	     color:red;
+	     font-style:normal;
+	  }
+	  ul{
+	     list-style:none; 
+	  }
+	  li{
+	     float:left;
+	  }
+	  .hide{
+	     border:1px solid #eee;
+		 opacity:0;
+		 z-index:3;
+	  }
+	  .e{
+	     text-align:left;
+		 line-height:30px;
+	     display:block;
+	  }
+	  i{ 
+	     color:red; 
+		 vertical-align:middle;
+		 margin-left:5px;
+		 margin-right:5px;
+	  }
+	  a{ 
+	     color:#000;
+	     text-decoration:none;
+		 margin-right:8px;
+		
+	  }
+	  .m{
+	     position:relative;
+	  }
+	  .m:after{
+	      Z-index:5;
+		  position:absolute;
+		  top:8px;
+		  width:0;
+		  height:0;
+		  content:"";
+		  border:3px solid transparent;
+		  border-top-color:#999;
+	  }
+      li:hover{
+	     
+         background-color:#fff;
+	  }
+	  a:hover{
+         color:red;
+	  }
+	  li:hover .hide{
+	     opacity:1;
+		 
+	  }
+      
+  </style>
+ </head>
+ <body>
+      <div class="head">
+	  <div class="content">
+	  <div class="left">
+	       <em class="">亲，请登录</em>
+		   <a href="" class="">免费注册</a>
+		   <a href="" class="">手机逛淘宝</a>
+	  </div>
+	  <div class="right">
+	       <ul>
+	       <li>
+		   <em class="">淘宝网首页</em>
+		   </li>
+		   <li>
+		   <a href="" class="m m1">我的淘宝<a/>
+		   <div class="hide">
+		   <a class="e">已购买的宝贝</a>
+           <a class="e">足迹</a>
+		   <a class="e">新欢</a>
+		   </div>
+		   </li>
+		   <li>
+		   <a href="" class="m"><i class="iconfont icon-gouwuchekong"></i>购物车<a/>
+		   </li>
+		   <li>
+		   <a href="" class="m"><i class="iconfont icon-shoucang1"></i>收藏夹<a/>
+		   </li>
+		   <li>
+		   <a href="" class="">商品分类<a/>
+		   </li>
+		   <li>
+		   <a href="" class="m">卖家中心<a/>
+		   </li>
+		   <li>
+		   <a href="" class="">联系客服<a/>
+		   </li>
+		   <li>
+		   <a href="" class="m"><i class="iconfont icon-daohang"></i>网站导航<a/>
+		   </li>
+		   </ul>
+	  </div>
+	  </div>
+	  </div>
+ </body>
+</html>
