@@ -40,6 +40,7 @@
 	     list-style:none; 
 	  }
 	  li{
+	     margin-right:5px;
 	     float:left;
 	  }
 	  .hide{
@@ -105,7 +106,7 @@
 		   <em class="">淘宝网首页</em>
 		   </li>
 		   <li>
-		   <a href="" class="m m1">我的淘宝<a/>
+		   <a href="" class="m m1">我的淘宝</a>
 		   <div class="hide">
 		   <a class="e">已购买的宝贝</a>
            <a class="e">足迹</a>
@@ -113,22 +114,22 @@
 		   </div>
 		   </li>
 		   <li>
-		   <a href="" class="m"><i class="iconfont icon-gouwuchekong"></i>购物车<a/>
+		   <a href="" class="m"><i class="iconfont icon-gouwuchekong"></i>购物车</a>
 		   </li>
 		   <li>
-		   <a href="" class="m"><i class="iconfont icon-shoucang1"></i>收藏夹<a/>
+		   <a href="" class="m"><i class="iconfont icon-shoucang1"></i>收藏夹</a>
 		   </li>
 		   <li>
-		   <a href="" class="">商品分类<a/>
+		   <a href="" class="">商品分类</a>
 		   </li>
 		   <li>
-		   <a href="" class="m">卖家中心<a/>
+		   <a href="" class="m">卖家中心</a>
 		   </li>
 		   <li>
-		   <a href="" class="">联系客服<a/>
+		   <a href="" class="">联系客服</a>
 		   </li>
 		   <li>
-		   <a href="" class="m"><i class="iconfont icon-daohang"></i>网站导航<a/>
+		   <a href="" class="m"><i class="iconfont icon-daohang"></i>网站导航</a>
 		   </li>
 		   </ul>
 	  </div>
